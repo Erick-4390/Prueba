@@ -1,11 +1,4 @@
-# PHP
-# Test and package your PHP project.
-# Add steps that run tests, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/php
-
-trigger:
-- master
-
+# https://docs.microsoft.com/azure/devops/pipelines/ecosystems/php
 pool:
   vmImage: 'ubuntu-16.04'
 
